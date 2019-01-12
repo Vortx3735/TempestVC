@@ -28,7 +28,7 @@ public class CubeIntake extends Subsystem {
 		
 		pivot.setNeutralMode(NeutralMode.Brake);
 		pivot.setInverted(true);
-		left.setInverted(true);
+		left.setInverted(false);
 	}
 
     public void initDefaultCommand() {

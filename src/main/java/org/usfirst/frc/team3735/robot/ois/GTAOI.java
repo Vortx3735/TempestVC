@@ -28,7 +28,7 @@ public class GTAOI implements DriveOI{
 		main.lb.whileHeld(new DriveAddSensitiveLeft());
 
 
-		main.b.whenPressed(new GearIntakeDropOff());
+		//main.b.whenPressed(new GearIntakeDropOff());
 		main.a.whileHeld(new GearIntakeFeeding());
 		main.x.whenPressed(new GearIntakeLiftDown());
 		main.y.whenPressed(new GearIntakeLiftUp());
